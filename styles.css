@@ -1,0 +1,143 @@
+body{
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+
+.header{
+  background-color: rgba(255, 153, 153, 0.85);
+  height: 7vh;
+  width: 100vw;
+  text-align: center;
+  position:absolute;
+  margin-left: 0px;
+  margin-top: 0vh;
+  line-height: 7vh;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 300%;
+}
+
+.footer{
+  background-color: rgba(160, 160, 160, 0.85);
+  height: 7vh;
+  width: 100vw;
+  text-align: center;
+  position:absolute;
+  margin-left: 0px;
+  margin-top: 93vh;
+  line-height: 7vh;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 100%;
+
+}
+
+.center{
+  width: 60vw;
+  height: 86vh;
+  background-color: rgba(102, 255, 102, 0.85);
+  margin-left: 20vw;
+  position:absolute;
+  margin-top: 0vh;
+
+}
+.left{
+  width: 20vw;
+  height: 86vh;
+  background-color: rgba(255, 51, 51, 0.85);
+  margin-left: 0px;
+  margin-top: 7vh;
+  position:absolute;
+
+}
+.right{
+  width: 20vw;
+  height: 86vh;
+  background-color: rgba(51, 51, 255, 0.85);
+  margin-top: 7vh;
+  margin-left: 80vw;
+  position:absolute;
+
+}
+button{
+  text-align: center;
+  position:absolute;
+  color: rgba(0, 0, 0, 0.87);
+}
+#button{
+  background-color: white;
+  margin-left: 45%;
+  height: 20vh;
+  width: 20vh;
+  margin-top: 30vh;
+  border-radius: 50%;
+  font-size: 200%;
+  line-height: 20vh;
+}
+#left_button{
+  background-color: rgba(160, 160, 160, 0.87);
+  margin-left: 25%;
+  height: 20vh;
+  width: 20vh;
+  margin-top: 30vh;
+  border-radius: 50%;
+  font-size: 200%;
+  line-height: 20vh;
+}
+.label{
+  background-color: white;
+  text-align: center;
+  position:absolute;
+  color: rgba(0, 0, 0, 0.87);
+}
+#cost{
+  height: 15vh;
+  width: 20vh;
+  border-radius: 10%;
+  margin-left: 25%;
+  margin-top: 55vh;
+  line-height: 15vh;
+  font-size: 200%;
+}
+#right_button{
+  background-color: rgba(160, 160, 160, 0.87);
+  margin-left: 25%;
+  height: 20vh;
+  width: 20vh;
+  margin-top: 30vh;
+  border-radius: 50%;
+  font-size: 200%;
+  line-height: 20vh;
+}
+#reset_button{  
+  height: 5vh;
+  width: 15vh;
+  margin-left: -30%;
+  margin-top: 1vh;
+  border-radius: 30%;
+  font-size: 80%;
+  background-color: white;
+  line-height: 5vh;
+}
+#autoclicker{
+  height: 15vh;
+  width: 20vh;
+  border-radius: 10%;
+  margin-left: 25%;
+  margin-top: 55vh;
+  line-height: 15vh;
+  font-size: 200%;
+}
+#numberClicker{
+  height: 10vh;
+  width: 20vh;
+  border-radius: 10%;
+  margin-left: 25%;
+  margin-top: 75vh;
+  line-height: 10vh;
+  font-size: 120%;
+}
+@keyframes colors {
+    0%  {background-color: yellow}
+    50%  {backgound-color: rgba(255, 255, 251)}
+    100% {background-color: rgba(255, 255, 153)}
+}
